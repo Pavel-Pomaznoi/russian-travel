@@ -1,0 +1,42 @@
+.place__description {
+    max-width: 484px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 26px;
+    padding: 0;
+
+}
+
+.place__description:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__description {
+        max-width: 456px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__description {
+        max-width: 352px;        
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__description {
+        max-width: calc(100% - 2*16px);
+        padding-left: 16px;
+        margin-bottom: 50px;
+
+    }
+}
+
