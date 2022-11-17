@@ -8,8 +8,17 @@
     color: #FFFFFF;
     max-width: 720px;
     margin: 0 auto;
-    padding: 0;
+    padding: 56px 0 0 0;
     display: block;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        padding-left: 35px;
+        padding-top: 50px;
+
+    }
 
 }
 
@@ -17,15 +26,19 @@
     .lead__title {
         padding-left: 24px;
         padding-right: 24px;
+
     }
+    
 }
 
 @media screen and (max-width: 320px) {
     .lead__title {
+        padding-top: 35px;
         padding-left: 16px;
         padding-right: 16px;
         font-size: 40px;
         line-height: 44px;
-        
+
     }
+    
 }

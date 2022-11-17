@@ -12,21 +12,27 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .intro__paragraph {
-        margin-bottom: 40px;
+    .intro__text {
+        margin-bottom: 0;
+
     }
+
 }
 
 @media screen and (max-width: 768px) {
-    .intro__paragraph {
+    .intro__text {
         max-width: 720px;
         margin-bottom: 40px;
+
     }
+
 }
 
 @media (max-width: 320px) {
-    .intro__paragraph {
+    .intro__text {
         max-width: 288px;
         margin-bottom: 40px;
+
     }
+
 }

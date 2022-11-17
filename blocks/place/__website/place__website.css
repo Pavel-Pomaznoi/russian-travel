@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     max-width: 456px;
-    max-height: 46px;    
+    max-height: 46px;
+    align-self: flex-end; 
     
 }
 
@@ -17,6 +18,8 @@
         max-width: 288px;
         margin-bottom: 32px;
         padding-left: 16px;
+        align-self: flex-start; 
         
     }
+    
 }

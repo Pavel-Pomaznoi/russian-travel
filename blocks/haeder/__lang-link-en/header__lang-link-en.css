@@ -1,26 +1,30 @@
 .header__lang-link-en {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: right;
-    text-decoration-line: none;
-    color: #FFFFFF;
-    padding: 0;
-    margin: 0;
-    transition: opacity .2s linear;
-    opacity: 1;
-  }
-  
-  .header__lang-link-en:hover {
-    opacity: .6;
-  }
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  transition: opacity .2s linear;
+  opacity: 1;
+
+}
+
+.header__lang-link-en:hover {
+  opacity: .6;
+
+}
 
 @media screen and (max-width: 320px) {
 
-    .header__lang-link-en {
-        font-size: 18px;
-        line-height: 20px;
-    }
+  .header__lang-link-en {
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+
 }
