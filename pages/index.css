@@ -5,6 +5,7 @@
 
 @import url(../blocks/haeder/header.css);
 @import url(../blocks/haeder/__logo/header__logo.css);
+@import url(../blocks/haeder/__link/header__link.css);
 @import url(../blocks/haeder/__lang-link-ru/header__lang-link-ru.css);
 @import url(../blocks/haeder/__lang-link-en/header__lang-link-en.css);
 
