@@ -1,5 +1,6 @@
 .intro {
     max-width: 690px;
+    width: 100%;
     padding: 0;
     padding-left: 148px;
     margin: 0;
@@ -10,6 +11,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 37px;
+
 }
 
 @media screen and (max-width: 1024px) {

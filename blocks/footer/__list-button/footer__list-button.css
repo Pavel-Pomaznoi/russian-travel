@@ -1,23 +1,24 @@
 .footer__list-button {
     padding: 0;
-    margin: 0 18px 0 0;
+    margin: 0 14px 0 0;
 
 }
 
-.footer__list-item:last-child {
+.footer__list-button:last-child {
     margin-right: 0;
 
 }
 
 @media screen and (max-width: 320px) {
-    .footer__list-item {
+    .footer__list-button {
         margin-bottom: 32px;
         margin-right: 0;
 
     }
 
-    .footer__list-item:last-child {
+    .footer__list-button:last-child {
         margin-bottom: 0;
+
     }
     
 }
