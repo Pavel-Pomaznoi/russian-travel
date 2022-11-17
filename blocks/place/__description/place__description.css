@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 768px) {
     .place__description {
-        max-width: 352px;        
+        max-width: 352px;
         font-size: 16px;
         margin-bottom: 25px;
 
