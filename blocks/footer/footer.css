@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        max-width: 720px;     
+        max-width: 720px;
         width: calc(100% - 2*24px);
     }
 }
