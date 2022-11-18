@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .lead__title {
+    .lead__title {        
         padding-left: 24px;
         padding-right: 24px;
 
@@ -31,7 +31,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         padding-top: 35px;
         padding-left: 16px;
