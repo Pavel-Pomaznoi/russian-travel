@@ -1,4 +1,4 @@
-.place__website {
+/* .place__website {
     margin: 0;
     padding: 0;
     max-width: 456px;
@@ -22,4 +22,21 @@
         
     }
     
+} */
+.place__website { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: end; 
+  } 
+
+  @media screen and (max-width: 1023px) {
+    .place__website {
+        max-width: 352px;
+    }
 }
+   
+  @media screen and (max-width:767px) { 
+    .place__website { 
+      padding-left: 16px; 
+    } 
+  }

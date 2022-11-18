@@ -1,18 +1,14 @@
-.intro__list-text {
-    
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    
+.intro__list-text {    
+    font-family: 'Inter', Arial, Helvetica, sans-serif;    
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
-    
-    
+    color: #FFFFFF;  
     list-style: none;
 
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .intro__list-text {
         max-width: 720px;
 
@@ -26,4 +22,4 @@
 
     }
 
-}
+} */
