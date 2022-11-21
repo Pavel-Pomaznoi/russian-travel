@@ -7,8 +7,7 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    transition: ease-in-out;
-    width: 100%;
+    transition: ease-in-out;    
     max-width: -moz-fit-content;
     max-width: -webkit-fit-content;
 
