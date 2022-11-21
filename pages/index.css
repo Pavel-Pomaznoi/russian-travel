@@ -1,15 +1,15 @@
-@import url(../blocks/page/page.css);
-
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
+
+@import url(../blocks/page/page.css);
 
 @import url(../blocks/page/__container/page__container.css);
 
 @import url(../blocks/haeder/header.css);
 @import url(../blocks/haeder/__logo/header__logo.css);
 @import url(../blocks/haeder/__link/header__link.css);
-@import url(../blocks/haeder/__lang-link-ru/header__lang-link-ru.css);
-@import url(../blocks/haeder/__lang-link-en/header__lang-link-en.css);
+@import url(../blocks/haeder/__lang-link/header__lang-link.css);
+@import url(../blocks/haeder/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);

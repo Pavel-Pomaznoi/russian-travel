@@ -22,9 +22,9 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .places {
         max-width: 720px;
-        margin-top: 98px;
+        margin-top: 60px;
         padding-left: 14px;
-        padding-right: 46px;
+        padding-right: 32px;
 
     }
 
@@ -32,10 +32,9 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .places {
-        max-width: 320px;
-        margin-top: 64px;
-        padding: 0;
-        margin: 0 auto;
+        max-width: 320px;        
+        margin-top: 15px;        
+        padding: 0;        
         align-self: flex-start;
         
     }

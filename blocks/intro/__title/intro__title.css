@@ -8,8 +8,7 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    display: flex;
-
+    
 }
 
 @media screen and (max-width: 1023px) {
@@ -26,6 +25,14 @@
         font-size: 32px;
         line-height: 35px;
         padding-left: 16px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {        
+        padding-left: 0px;
 
     }
 

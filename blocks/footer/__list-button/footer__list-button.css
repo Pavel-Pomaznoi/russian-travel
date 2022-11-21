@@ -1,6 +1,7 @@
 .footer__list-button {
     padding: 0 0 5px;
     margin: 0 19px 0 0;
+    
 
 }
 
@@ -9,7 +10,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .footer__list-button {
         margin-bottom: 32px;
         margin-right: 0;

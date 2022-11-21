@@ -20,20 +20,27 @@
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .intro__text {
-        max-width: 720px;
+        max-width: 690px;
         margin-bottom: 36px;
 
     }
 
 }
 
-@media (max-width: 767px) {
-    .intro__text {        
-        padding-left: 16px;
-        padding-right: 16px;
+@media (max-width: 768px) {
+    .intro__text {   
+        max-width: 720px;
 
+    }
+
+}
+
+@media (max-width: 320px) {
+    .intro__text {        
+        max-width: 288px;
+        margin-bottom: 10px;
     }
 
 }

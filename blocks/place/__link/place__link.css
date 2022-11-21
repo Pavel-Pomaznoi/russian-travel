@@ -8,28 +8,37 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     transition: ease-in-out;
-    
+    width: 100%;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+
 
 }
 
 .place__link:hover {
     opacity: 0.8;
     transition: opacity 0.5s ease-in-out;
-    
+
 }
 
 @media screen and (max-width: 768px) {
     .place__link {
+        width: 100%;
         max-width: 352px;
+        max-width: -moz-fit-content;
+        max-width: -webkit-fit-content;
 
     }
-    
+
 }
 
 @media screen and (max-width: 320px) {
     .place__link {
+        width: 100%;
         max-width: 288px;
+        max-width: -moz-fit-content;
+        max-width: -webkit-fit-content;
 
     }
-    
+
 }
