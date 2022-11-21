@@ -1,5 +1,6 @@
 .place__link {
-    max-width: 456px;
+    max-width: fit-content;
+    width: 100%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -7,37 +8,12 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    transition: ease-in-out;    
-    max-width: -moz-fit-content;
-    max-width: -webkit-fit-content;
-
+    transition: ease-in-out;
 
 }
 
 .place__link:hover {
     opacity: 0.8;
     transition: opacity 0.5s ease-in-out;
-
-}
-
-@media screen and (max-width: 768px) {
-    .place__link {
-        width: 100%;
-        max-width: 352px;
-        max-width: -moz-fit-content;
-        max-width: -webkit-fit-content;
-
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-    .place__link {
-        width: 100%;
-        max-width: 288px;
-        max-width: -moz-fit-content;
-        max-width: -webkit-fit-content;
-
-    }
 
 }
