@@ -28,7 +28,7 @@
     .place {
         max-width: 720px;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-rows: repeat(2, minmax(min-content, max-content));  
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
         column-gap: 28px;
         margin-bottom: 73px;
     
