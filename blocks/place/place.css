@@ -30,7 +30,7 @@
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         column-gap: 28px;
-        margin-bottom: 73px;
+        margin-bottom: 40px;
     
     }
 
@@ -39,7 +39,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place {
         max-width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 47px;
         row-gap: 32px;
         display: flex;
         flex-direction: column;

@@ -2,7 +2,46 @@
     max-width: 100%;
     min-width: 288px;
     margin: 0;
-    padding: 0;         
+    padding: 0;
+
 
 }
 
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+    .photo-grid__item {
+        max-height: 213px;
+        vertical-align: bottom;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .photo-grid__item {
+        min-width: 300px;
+        max-height: 255px;
+        vertical-align: bottom;
+
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+    .photo-grid__item {
+        min-width: 352px;
+        max-height: 264px;
+        vertical-align: bottom;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__item {
+        max-height: 216px;
+        vertical-align: bottom;
+
+    }
+
+}
