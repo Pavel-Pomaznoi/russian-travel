@@ -20,14 +20,14 @@
 
 }
 
-.header__lang-link-ru:hover {
+.header__lang-link:hover {
   opacity: .8;
 
 }
 
 
 @media screen and (max-width: 320px) {
-  .header__lang-link-ru {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
 
