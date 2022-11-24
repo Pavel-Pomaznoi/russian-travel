@@ -30,8 +30,7 @@
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         column-gap: 28px;
-        row-gap: 48px;
-        /* margin-bottom: 40px; */
+        row-gap: 48px;        
     
     }
 
@@ -41,8 +40,8 @@
     .place {
         max-width: 288px;
         max-width: 100%;
-        margin-bottom: 47px;
-        row-gap: 32px;
+        margin-bottom: 0px;
+        row-gap: 23px;
         display: flex;
         flex-direction: column;
         justify-content: center;

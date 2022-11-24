@@ -1,8 +1,7 @@
 .place__image {
     max-width: 460px;
     max-height: 460px;
-    align-self: start;
-    margin-left: 7px;
+    align-self: start;   
 
 }
 
